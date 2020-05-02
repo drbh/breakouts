@@ -7,4 +7,8 @@ edition = "2018"
 [dependencies]
 rand = "*"
 
-scoped_threadpool = "0.1.9"
+bincode = "*"
+serde = { version = "*", features = ["derive"] }
+
+
+# scoped_threadpool = "0.1.9"
